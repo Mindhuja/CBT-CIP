@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    background-image: url("event.jpg");
+}
+
+header {
+   
+    color: orangered;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: orangered;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#event-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#event-list li {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+footer{
+    
+    text-align: center;
+    color: orangered;
+   
+}
