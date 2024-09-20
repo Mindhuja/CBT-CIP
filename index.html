@@ -3,46 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EventLitez</title>
+    <title>My Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to EventLitez</h1>
+        <img src="me.jpg" alt="Your Name">
+        <h1>INDHUJA M </h1>
+        <p>Web Developer | Front-end Enthusiast | Content creater</p>
     </header>
-    <main>
-        <section id="create-event">
-            <h2>Create Event</h2>
-            <form id="eventForm">
-                <label for="eventName">Event Name:</label>
-                <input type="text" id="eventName" required>
 
-                <label for="eventDate">Date:</label>
-                <input type="date" id="eventDate" required>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer passionate about building functional and beautiful websites using HTML, CSS, and JavaScript.
+            Proficient in front-end development, specializing in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
+            Enthusiastic about creating responsive and visually appealing designs with a focus on <strong>UI/UX</strong>.
+            Experienced in developing dynamic web applications using <strong>React.js</strong> and <strong>Bootstrap</strong>.
+            Skilled in version control with <strong>Git</strong> and collaborative development on <strong>GitHub</strong>.
+            Keen on continuous learning and keeping up with the latest trends and best practices in web development.
+            Enjoy working on creative projects like <strong>photography booking websites</strong> and event management platforms.
+         </p>
+         <a href="Indhuja Resume.pdf" download>Download My Resume</a>
+    </section>
+    
 
-                <label for="eventTime">Time:</label>
-                <input type="text" id="eventTime" placeholder="HH:MM" required> 
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <img src="quizpic.jpg" alt="Eventlitez">
+            <h3>Quiz app</h3>
+            <p>Quiz app is a dynamic web application for test their
+            knowledge on various topics </p>
+            <a href="https://github.com/Mindhuja/quizapp" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <img src="photo.jpg" alt="Eventlitez">
+            <h3>Tint Studio</h3>
+            <p>Tint Studio is a sleek and modern photography 
+            booking platform designed using HTML and CSS</p>
+            <a href="https://github.com/Mindhuja/Tint_studio" target="_blank">View Project</a>
+        </div>
+    </section>
 
-                <select id="timePeriod">
-                    <option value="AM">AM</option>
-                    <option value="PM">PM</option>
-                </select>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            
+            <div class="skill-category">
+                <h2>Front-End Development</h2>
+                <ul> 
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h2>Back-End Development</h2>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+    
+            <div class="skill-category">
+                <h2>Tools & Frameworks</h2>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Figma</li>
+                    <li>Canva</li>
+                    <li>Postman</li>
+                </ul>
+            </div>
+    
+            <div class="skill-category">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
 
-                <label for="eventLocation">Location:</label>
-                <input type="text" id="eventLocation" required>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/indhuja-muthu-836680276" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Mindhuja" target="_blank">GitHub</a>
+        </div>
+    </section>    
 
-                <button type="submit">Add Event</button>
-            </form>
-        </section>
-
-        <section id="event-list">
-            <h2>Upcoming Events</h2>
-            <ul id="events"></ul>
-        </section>
-    </main>
     <footer>
-        <p>&copy; 2024 EventLitez. All rights reserved.</p>
+        <p>&copy; 2024 Your Indhuja. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
